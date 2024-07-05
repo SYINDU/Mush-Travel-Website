@@ -173,6 +173,8 @@ main {
     object-fit: cover;
 }
 
+
+
 .img-overlay {
     position: absolute;
     z-index: 5;
@@ -185,15 +187,15 @@ main {
 }
 
 .img-overlay p {
-    font-size: 1rem;
+    font-size: 1.4rem;
     letter-spacing: 8px;
-    color: var(--white-color);
+    color: var(black);
     animation: animate 4s forwards;
 }
 
 .img-overlay h2 {
     font-size: 3rem;
-    color: var(--white-color);
+    color: var(black);
     text-transform: uppercase;
     letter-spacing: 5px;
     animation: animate 4s forwards;
@@ -653,6 +655,7 @@ form input, select {
     width: 20%;
     object-fit: cover;
     margin: 1rem 0;
+    border-radius: 50%;
 }
 
 .icons {
